@@ -212,10 +212,10 @@ function getOrCreateFolder(parentFolder, subFolderName, dateType, extractedDateS
 ### 3. 設定變數
 
 在程式碼頂部的 const SENDER_EMAIL 和 const ROOT_FOLDER_ID 變數中，填入您的寄件者信箱和雲端硬碟根資料夾 ID：
-
+```
 const SENDER_EMAIL = "sender@example.com"; 
 const ROOT_FOLDER_ID = "請在此貼上您的資料夾 ID";
-
+```
 ### 4. 設定自動化觸發條件
 
 點擊 Apps Script 編輯器左側的「觸發條件」(時鐘圖示)，然後點擊「新增觸發條件」，並依照您的需求設定以下三個排程：
